@@ -15,7 +15,7 @@ end
 def assign_rooms(speakers)
   jj = []
   counter = 0 
-  speakers.each do |person|
+  speakers.each_with_index do |person|
     counter += 1
     jj.push("Hello, #{person}! You'll be assigned to room #{counter}!")
   end
