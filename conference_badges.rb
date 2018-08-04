@@ -1,5 +1,5 @@
 
-attendees = ['jj','kk','ttttt','pp']
+pep = ['jj','kk','ttttt','pp']
 
 
 def badge_maker(name)
@@ -28,3 +28,10 @@ def printer(attendees)
    puts assign_rooms(list)
   end
 end
+
+batch_badge_creator(pep)
+assign_rooms(pep)
+printer(pep)
+
+
+
