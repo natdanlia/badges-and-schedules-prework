@@ -31,8 +31,6 @@ def printer(attendees)
   end
 end
 
-batch_badge_creator(pep)
-assign_rooms(pep)
 
 
 
