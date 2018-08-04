@@ -14,10 +14,10 @@ end
 
 def assign_rooms(speakers)
   jj = []
-  counter = 0 
   speakers.each_with_index do |person,index|
-    counter += 1
     jj.push("Hello, #{person}! You'll be assigned to room #{index + 1}!")
   end
   jj
 end
+
+def printer 
