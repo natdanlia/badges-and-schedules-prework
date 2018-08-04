@@ -1,5 +1,5 @@
 
-pep = ['jj','kk','ttttt','pp']
+#pep = ['jj','kk','ttttt','pp']
 
 
 def badge_maker(name)
